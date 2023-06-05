@@ -1,0 +1,30 @@
+.DS_Store
+
+### Don't version-control the PDF or R markdown versions of the notebooks
+pdf/**
+Rmd/**
+
+### Don't version-control Jupyter's internal checkpoint recovery system
+.ipynb_checkpoints
+
+### Ignore standard intermediate files created by R
+# History files
+.Rhistory
+.Rapp.history
+# Session Data files
+.RData
+.RDataTmp
+# User-specific files
+.Ruserdata
+# Example code in package build process
+*-Ex.R
+# RStudio files
+.Rproj.user/
+# knitr and R markdown default cache directories
+*_cache/
+/cache/
+# Temporary files created by R markdown
+*.utf8.md
+*.knit.md
+# R Environment Variables
+.Renviron
